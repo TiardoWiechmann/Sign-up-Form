@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('fonts/Norse-Bold.woff2') format('woff2'),
+        url('fonts/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -11,7 +20,7 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background-color: rgb(240, 229, 229);
     height: 100vh;
     width: 80vw;
     margin: 0 auto;
@@ -34,8 +43,17 @@ body {
     padding: 1em auto;
     color: white;
     text-align: center;
-
+    font-family: "Norse";
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.odin-icon {
+    height: 3em;
+}
+
+
 
 .section-one {
 
