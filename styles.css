@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-side {
+    
+}
+
+.section-one {
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+
+}
