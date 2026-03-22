@@ -13,52 +13,57 @@
                 <img class="odin-icon" src="odin.png" alt="odin-icon">
                 <h1>ODIN</h1>
             </div>
+            <footer>Photo by <a href="https://unsplash.com/photos/a-large-waterfall-in-the-middle-of-a-forest-GTgYgcqwCjo">
+                Romeo Leaupepe</a> Su'a on <a href="https://unsplash.com/">Unsplash</a></footer>
         </div>
         <div class="right-side">
             <div class="section-one">
                 <p>This is not a real online service! You know you need something
                     like this in your life to help you realize your deepest dreams.
-                    Sign up <em>now</em> to get started.
-                </p>
-                <p>You <em>know</em> you want to.
+                    Sign up <em>now</em> to get started. <br><br>
+                    You <em>know</em> you want to.
                 </p>
             </div>
-            <form class="section-two" action="" method="get">
-                <div class="form-row">
-                    <div class="form-col">
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name">
+            <form action="" method="get">
+
+                <div class="section-two">
+                    <div>Let's do this!</div>
+                    <div class="form-row">
+                        <div class="form-row-col">
+                            <label for="first-name">FIRST NAME*</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div class="form-row-col">
+                            <label for="last-name">LAST NAME*</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
                     </div>
-                    <div class="form-col">
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name">
+                    <div class="form-row">
+                        <div class="form-row-col">
+                            <label for="email">EMAIL*</label>
+                            <input type="text" id="email" name="email" required>
+                        </div>
+                        <div class="form-row-col">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-row-col">
+                            <label for="pw">PASSWORD*</label>
+                            <input type="password" id="pw" name="pw" required>
+                        </div>
+                        <div class="form-row-col">
+                            <label for="confirm-pw">CONFIRM PASSWORD*</label>
+                            <input type="password" id="confirm-pw" name="pw-confirmed" required>
+                        </div>
                     </div>
                 </div>
-                <div class="form-row">
-                    <div class="form-col">
-                        <label for="email">EMAIL</label>
-                        <input type="text" id="email">
-                    </div>
-                    <div class="form-col">
-                        <label for="phone">PHONE NUMBER</label>
-                        <input type="text" id="phone">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-col">
-                        <label for="pw">PASSWORD</label>
-                        <input type="text" id="pw">
-                    </div>
-                    <div class="form-col">
-                        <label for="confirm-pw">CONFIRM PASSWORD</label>
-                        <input type="text" id="confirm-pw">
-                    </div>
+                <div class="section-three">
+                    <button type="submit">Create Account</button>
+                    <div>Already have an account? <span>Log in</span></div>
                 </div>
             </form>
-            <div class="section-three">
-                <button>Create Account</button>
-                <p>Already have an account? <span>Log in</span></p>
-            </div>
         </div>
     </div>
 </body>
